@@ -1,6 +1,12 @@
+import java.util.Scanner;
+
 public class Perro extends Animal{
     private String raza;
-    public Perro(String nombre,String raza) {
+
+    public Perro() {
+    }
+
+    public Perro(String nombre, String raza) {
         super(nombre);
         this.raza = raza;
     }
