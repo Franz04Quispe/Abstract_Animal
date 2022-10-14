@@ -37,5 +37,5 @@ public abstract class Animal {
         System.out.print("- ¿Que clase de animal es? ");
         clase=XD.nextLine();
         System.out.println("El animal se llama: "+nombre+" es de la clase animal: "+clase);
-    };
+    }
 }

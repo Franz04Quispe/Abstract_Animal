@@ -16,5 +16,11 @@ public class Main {
         //Llamar al nuevo metodo en la clase Main
         System.out.println("←▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒→");
         p.imprimir();
+
+        //Llamar al metodo de la clase Perro en Main
+        System.out.println("←☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼");
+        Perro pe= new Perro();
+        pe.registroPerro();
     }
 }
+

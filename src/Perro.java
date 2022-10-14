@@ -4,6 +4,13 @@ public class Perro extends Animal{
         super(nombre);
         this.raza = raza;
     }
+    //Crear un metodo en la clase Perro
+    public void registroPerro(){
+        Scanner LOL = new Scanner(System.in);
+        System.out.print("- Ingrese el nombre del perro: ");
+        nombre=LOL.nextLine();
+        System.out.print("- El nombre del perro es:"+nombre);
+    }
 
     @Override
     public void setNombre(String nombre) {
